@@ -1,9 +1,5 @@
 # N1 - Parte-2 - Tec de Programação
-*Observações Gerais 
-1. Trabalho pode ser feito de três a cinco pessoas. Caso opte por fazer individualmente, converse 
-com o professor por mensagem privada. 
-2. É necessário realizar a entrega até as 23:59 do dia 11/10 
-3. Compreender o enunciado e o problema proposto faz parte da avaliação 
+
 Problema a ser resolvido 
 Uma instituição de ensino superior precisa de um sistema para gerenciar o processo de inscrições em 
 um evento técnico. O sistema deve permitir a implementação das seguintes histórias de usuário: 
