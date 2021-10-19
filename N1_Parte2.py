@@ -99,7 +99,8 @@ def main():
   elif respostaUsuario == 3:
     
      removerCadastro()
-
+ 
+   
   else:
      pass
      
