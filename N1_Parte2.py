@@ -59,8 +59,24 @@ def exibirCadastros():
    
    return
 
-      
+def removerCadastro():
 
+   exluirUsuario = input("\nDigite o e-mail do usuário que você deseja excluir: ")
+
+   if(exluirUsuario in listaNomes):
+
+      listaNomes.remove(exluirUsuario)
+
+      print("Usuário deletado!")
+
+      main()
+   
+   else:
+      print("\nUsuário não encontrado")
+
+      removerCadastro()
+      
+   return
 
 def main():
    
@@ -82,13 +98,11 @@ def main():
    
   elif respostaUsuario == 3:
     
-     print("nada")
+     removerCadastro()
 
-  elif respostaUsuario == 4:
-
-     print("Conseguiu!!")
+  else:
+     pass
      
-
 if(__name__ == "__main__"):
     
     main()
