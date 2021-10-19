@@ -99,7 +99,7 @@ def main():
   elif respostaUsuario == 3:
     
      removerCadastro()
-
+# Não conseguimos encontrar uma solução para a [4] professor, pedimos desculpas por não atender o exercício 100%.
   else:
      pass
      
